@@ -1,5 +1,5 @@
 ## C# IDeskBand2 Sample - a Media control Deskband for Windows 7+
-	
+
 ![Screenshot](https://raw.githubusercontent.com/navhaxs/media-control-deskband/master/screenshot.png)
 
 Original source from Pavel Zolnikov's article ["Extending Explorer with Band Objects using .NET and Windows Forms"](http://www.codeproject.com/Articles/2219/Extending-Explorer-with-Band-Objects-using-NET-and), from way back in 2002. See for instructions.
@@ -12,15 +12,15 @@ This builds with .NET 4.6 on Windows 10 x64. Clearly most of this project lends 
 
 Start an elevated command prompt, then run `env.bat` (may need to adjust)
 
-`cd .\SampleBars\bin\Release\
+    cd .\SampleBars\bin\Release\
 
-gacutil.exe /if SampleBars.dll
+    gacutil.exe /if SampleBars.dll
 
-gacutil.exe /if BandObjectLib.dll
+    gacutil.exe /if BandObjectLib.dll
 
-gacutil.exe /if WindowsInput.dll
+    gacutil.exe /if WindowsInput.dll
 
-regasm.exe SampleBars.dll`
+    regasm.exe SampleBars.dll
 
 The dll must be (re)installed into the GAC each and every time it is changed.
 
