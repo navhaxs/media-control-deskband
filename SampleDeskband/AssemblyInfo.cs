@@ -54,5 +54,5 @@ using System.Runtime.CompilerServices;
 //       documentation for more information on this.
 //
 [assembly: AssemblyDelaySign(false)]
-[assembly: AssemblyKeyFile(@"..\..\..\BandObjects.snk")]
+[assembly: AssemblyKeyFile(@"..\..\..\MyExampleProject.snk")]
 [assembly: AssemblyKeyName("")]

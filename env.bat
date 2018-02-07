@@ -16,11 +16,9 @@ goto check_Permissions
 
 :go
 
-doskey gacutil="C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\x64\gacutil.exe" $*
+doskey gacutil="C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\gacutil.exe" $*
 doskey RegAsm="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe" $*
 doskey k=C:\Windows\System32\taskkill.exe /im explorer.exe /f
-cd C:\Users\Jeremy\Documents\ProjectDeskband\dotnetBandObjects_src
-cd .\SampleBars\bin\Release
 
 echo Run gacutil to install to GAC,
 echo Run regasm to register COM
